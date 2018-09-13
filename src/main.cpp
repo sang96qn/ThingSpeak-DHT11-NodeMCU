@@ -12,7 +12,7 @@ const char *ssid =  "viettel1234";     // replace with your wifi ssid and wpa2 k
 const char *pass =  "1223334444";
 const char* server = "api.thingspeak.com";
 
-#define DHTPIN 0          //pin where the dht11 is connected
+#define DHTPIN 0          //pin D3 where the dht11 is connected
 
 DHT dht(DHTPIN, DHT11);
 
